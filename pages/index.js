@@ -1,11 +1,11 @@
-import CopyablePill from "./components/copyable-pill";
+import CopyablePill from "../components/copyable-pill";
 import {
   ApostropheKey,
   ColonKey,
   MinusKey,
   OptionKey,
   ShiftKey,
-} from "./components/keys";
+} from "../components/keys";
 
 export default function IndexPage() {
   return (
