@@ -72,7 +72,7 @@ export default function IndexPage() {
               <h2 className={"text-4xl font-bold"}>Minus</h2>
               <div className={"flex gap-2 flex-wrap"}>
                 <CopyablePill text={"−"}>&minus;</CopyablePill>
-                <CopyablePill text={"&#45;"}>
+                <CopyablePill text={"&minus;"}>
                   <code>&amp;minus;</code>
                 </CopyablePill>
                 <CopyablePill text={"\\u2212"}>
@@ -88,7 +88,7 @@ export default function IndexPage() {
               <h2 className={"text-4xl font-bold"}>En dash</h2>
               <div className={"flex gap-2 flex-wrap"}>
                 <CopyablePill text={"–"}>&ndash;</CopyablePill>
-                <CopyablePill text={"&mdash;"}>
+                <CopyablePill text={"&ndash;"}>
                   <code>&amp;ndash;</code>
                 </CopyablePill>
                 <CopyablePill text={"\\u2013"}>
