@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        @apply dark:bg-black dark:text-white;
+        font-family: 'Inter', sans-serif;
+    }
+    em {
+        @apply bg-red-500 bg-opacity-30;
+    }
+
+    code {
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    a {
+        @apply text-blue-400 hover:text-blue-300;
+    }
+}
+
+@layer utilities {
+    .max-w-content {
+        max-width: 48rem;
+    }
+}
